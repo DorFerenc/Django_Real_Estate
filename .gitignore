@@ -264,3 +264,12 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/django,python
+
+/static
+/media
+/btre/static
+/btre/static/
+/btre_theme
+btre_theme
+btre/static/
+btre/static
