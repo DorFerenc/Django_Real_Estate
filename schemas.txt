@@ -15,7 +15,7 @@ bathrooms: FLOAT
 garage: INT [0]
 sq_meter: INT
 lot_size: FLOAT
-id_piblished: BOOL [true]
+is_piblished: BOOL [true]
 list_date: DATE
 photo_main: STR
 photo_1: STR
