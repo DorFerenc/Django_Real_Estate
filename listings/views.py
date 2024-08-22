@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 from .models import Listing
@@ -19,7 +19,13 @@ def index(request):
     return render(request, 'listings/listings.html', context)
 
 def listing(request, listing_id):
-    return render(request, 'listings/listing.html')
+    listing_from_db = get_object_or_404(Listing, pk=listing_id)
+
+    context = {
+        'listing': listing_from_db
+    }
+
+    return render(request, 'listings/listing.html', context)
 
 def search(request):
     return render(request, 'listings/search.html')
