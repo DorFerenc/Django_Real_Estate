@@ -9,7 +9,7 @@
       <div class="home-search p-5">
         <div class="overlay p-5">
           <h1 class="display-4 mb-4">Property Searching Just Got So Easy</h1>
-          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores eveniet vel nostrum magnam voluptatum tempore! Consectetur, id commodi!</p>
+          <p class="lead">Experience the future of real estate with our intuitive search engine. Find your dream home with just a few clicks, tailored to your exact needs and preferences.</p>
           <div class="search">
             <form action="{% url 'search' %}">
               <!-- Form Row 1 -->
@@ -61,6 +61,9 @@
       </div>
     </div>
   </section>
+
+  <!-- Alerts -->
+   {% include 'partials/_alerts.html'%}
 
   <!-- Listings -->
   <section id="listings" class="py-5">
@@ -132,19 +135,19 @@
           <i class="fas fa-comment fa-4x mr-4"></i>
           <hr />
           <h3>Consulting Services</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur hic dignissimos ratione ea quae.</p>
+          <p>Unlock expert insights with our comprehensive consulting services. Whether you're buying, selling, or investing, our team provides personalized guidance to help you make informed decisions.</p>
         </div>
         <div class="col-md-4">
           <i class="fas fa-home fa-4x mr-4"></i>
           <hr />
-          <h3>Propery Management</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur hic dignissimos ratione ea quae.</p>
+          <h3>Property Management</h3>
+          <p>Entrust your investment with our professional property management services. We handle the details, from maintenance to tenant relations, ensuring your property is well-maintained and profitable.</p>
         </div>
         <div class="col-md-4">
           <i class="fas fa-suitcase fa-4x mr-4"></i>
           <hr />
           <h3>Renting & Selling</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur hic dignissimos ratione ea quae.</p>
+          <p>Streamline your real estate journey with our efficient renting and selling services. Our dedicated team works tirelessly to match tenants with ideal properties and sellers with eager buyers, ensuring a smooth and successful transaction.</p>
         </div>
       </div>
     </div>
