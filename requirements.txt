@@ -1,0 +1,12 @@
+Django>=4.0,<5.0
+psycopg2-binary>=2.9,<3.0  # PostgreSQL database adapter for Python
+django-crispy-forms>=1.14.0  # For enhanced form layouts
+crispy-bootstrap5>=0.6  # Bootstrap 5 integration with crispy forms
+django-allauth>=0.51.0  # For user registration, login, and social authentication
+Pillow>=9.0.0  # For image processing (e.g., handling property images)
+django-filter>=23.1  # For advanced search/filtering functionality
+gunicorn>=20.1.0  # WSGI HTTP server for running Django in production
+dj-database-url>=0.5.0  # For managing database URLs
+python-decouple>=3.8  # For managing environment variables
+django-environ>=0.10.0  # For managing environment variables (alternative to decouple)
+whitenoise>=6.4.0  # For serving static files in production
