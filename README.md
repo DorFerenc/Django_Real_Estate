@@ -1,8 +1,8 @@
-# Ferenc Real Estate App
+# Real Estate App
 
 ## Overview
 
-Ferenc Real Estate App is a fully functional real estate application built using Python Django and HTML. The app allows users to browse, search, and inquire about real estate listings. The application is designed with a clean and mobile-friendly interface, featuring essential real estate functionalities.
+Real Estate App is a fully functional real estate application built using Python Django and HTML. The app allows users to browse, search, and inquire about real estate listings. The application is designed with a clean and mobile-friendly interface, featuring essential real estate functionalities.
 
 ## Features
 
