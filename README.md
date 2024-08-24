@@ -1,8 +1,8 @@
-# BT Real Estate App
+# Ferenc Real Estate App
 
 ## Overview
 
-BT Real Estate App is a fully functional real estate application built using Python Django and HTML. The app allows users to browse, search, and inquire about real estate listings. The application is designed with a clean and mobile-friendly interface, featuring essential real estate functionalities.
+Ferenc Real Estate App is a fully functional real estate application built using Python Django and HTML. The app allows users to browse, search, and inquire about real estate listings. The application is designed with a clean and mobile-friendly interface, featuring essential real estate functionalities.
 
 ## Features
 
@@ -17,7 +17,7 @@ BT Real Estate App is a fully functional real estate application built using Pyt
 - **Dashboard**: User dashboard to track inquiries submitted through the site.
 
 ### Design Specifications
-- **Branding**: Utilizes the BTRE logo on both the frontend and admin panels.
+- **Branding**: Utilizes the logo on both the frontend and admin panels.
 - **Colors**: Main branding colors are blue (#10284e) and green (#30caa0).
 - **Mobile Friendly**: Fully responsive design that works on all devices.
 - **Social Media & Contact Info**: Displayed prominently across the site.
